@@ -11,7 +11,8 @@ public class SecureAreaPage {
         this.driver=driver;
     }
 
-    public String getMessagge(){
+    public String getMessagge()
+    {
        return driver.findElement(message).getText();
     }
 
